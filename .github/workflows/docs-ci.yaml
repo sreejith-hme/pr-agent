@@ -1,11 +1,12 @@
 name: docs-ci
 on:
-  push:
-    branches:
-      - main
-      - add-docs-portal
-    paths:
-      - docs/**
+  workflow_dispatch:
+#  push:
+#    branches:
+#      - main
+#      - add-docs-portal
+#    paths:
+#      - docs/**
 permissions:
   contents: write
 jobs:
